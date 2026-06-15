@@ -34,12 +34,6 @@ ostream& operator<<(ostream& out, const vector<T>& v) {
     return out;
 }
 
-bool check(int x, int y, ii posA, ii posB) {
-    if(!(x > posA.first && x <= posB.first)) {return false;}
-    if(!(y > posA.second && y <= posB.second)) {return false;}
-    return true;
-}
-
 int main() {
     freopen("blist.in","r",stdin);
     freopen("blist.out","w",stdout);
