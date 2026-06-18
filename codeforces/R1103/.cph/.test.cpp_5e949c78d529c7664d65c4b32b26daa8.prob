@@ -1,0 +1,1 @@
+{"name":"Local: test","url":"/home/pablit0o/Escritorio/codigo/cp/codeforces/R1103/test.cpp","tests":[{"id":1781282276276,"input":"4\n4 1\n2 3 1 4\n2 1\n2 4\n6 1\n3 9 1 6 4 5\n7 1\n1 2 3 67 13 8 8","output":"8\n4\n40\n64"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/pablit0o/Escritorio/codigo/cp/codeforces/R1103/test.cpp","group":"local","local":true}

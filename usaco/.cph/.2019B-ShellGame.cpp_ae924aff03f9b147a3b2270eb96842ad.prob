@@ -1,0 +1,1 @@
+{"name":"Local: 2019B-ShellGame","url":"/home/pablit0o/code/cp/usaco/2019B-ShellGame.cpp","tests":[{"id":1774750288807,"input":"3\n1 2 1\n3 2 1\n1 3 1","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/pablit0o/code/cp/usaco/2019B-ShellGame.cpp","group":"local","local":true}

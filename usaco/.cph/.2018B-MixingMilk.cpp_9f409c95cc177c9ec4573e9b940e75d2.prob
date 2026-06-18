@@ -1,0 +1,1 @@
+{"name":"Local: 2018B-MixingMilk","url":"/home/pablit0o/code/cp/usaco/2018B-MixingMilk.cpp","tests":[{"id":1774752034965,"input":"10 3\n11 4\n12 5","output":"0\n10\n2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/pablit0o/code/cp/usaco/2018B-MixingMilk.cpp","group":"local","local":true}

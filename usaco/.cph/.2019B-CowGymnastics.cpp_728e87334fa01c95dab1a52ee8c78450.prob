@@ -1,0 +1,1 @@
+{"name":"Local: 2019B-CowGymnastics","url":"/home/pablit0o/code/cp/usaco/2019B-CowGymnastics.cpp","tests":[{"id":1774812951287,"input":"3 4\n4 1 2 3\n4 1 3 2\n4 2 1 3","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/pablit0o/code/cp/usaco/2019B-CowGymnastics.cpp","group":"local","local":true}

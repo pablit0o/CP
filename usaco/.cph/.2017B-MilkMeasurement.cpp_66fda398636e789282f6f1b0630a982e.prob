@@ -1,0 +1,1 @@
+{"name":"Local: 2017B-MilkMeasurement","url":"/home/pablit0o/code/cp/usaco/2017B-MilkMeasurement.cpp","tests":[{"id":1774760821664,"input":"4\n7 Bessie +10\n4 Bessie -1\n9 Bessie -1\n1 Bessie +2","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/pablit0o/code/cp/usaco/2017B-MilkMeasurement.cpp","group":"local","local":true}
