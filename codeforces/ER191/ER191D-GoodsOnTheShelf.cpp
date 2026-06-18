@@ -3,6 +3,8 @@ using namespace std;
 typedef long long ll;
 #define all(x) (x).begin(), (x).end()
 
+// REJECTED
+
 int countBlocks(const vector<int>& a) {
     if(a.empty()) return 0;
     int ct = 1;
