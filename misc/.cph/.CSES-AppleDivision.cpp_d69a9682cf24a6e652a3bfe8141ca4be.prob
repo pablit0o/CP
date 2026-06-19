@@ -1,0 +1,1 @@
+{"name":"Local: CSES-AppleDivision","url":"/home/pablit0o/Desktop/codigo/CP/misc/CSES-AppleDivision.cpp","tests":[{"id":1781851434149,"input":"5\n3 2 7 4 1","output":""},{"id":1781851883797,"input":"2\n44 44","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/pablit0o/Desktop/codigo/CP/misc/CSES-AppleDivision.cpp","group":"local","local":true}
