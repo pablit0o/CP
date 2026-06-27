@@ -62,6 +62,19 @@ ostream& operator<<(ostream& out, const vector<T>& v) {
 
 }
 
+// modulo exp
+// ll power(ll base, ll exp, ll mod) {
+//     ll res = 1;
+//     base %= mod;
+//     while (exp > 0) {
+//         if (exp % 2 == 1) res = (__int128)res * base % mod;
+//         base = (__int128)base * base % mod;
+//         exp /= 2;
+//     }
+//     return res;
+// }
+ 
+
 void setIO(string s = "") {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);

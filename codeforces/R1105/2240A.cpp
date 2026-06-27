@@ -72,14 +72,18 @@ void setIO(string s = "") {
     }
 }
 
-// modulo exp
-// ll power(ll base, ll exp, ll mod) {
-//     ll res = 1;
-//     base %= mod;
-//     while (exp > 0) {
-//         if (exp % 2 == 1) res = (__int128)res * base % mod;
-//         base = (__int128)base * base % mod;
-//         exp /= 2;
-//     }
-//     return res;
-// }
+int main() {
+    int t; cin >> t;
+    while(t--) {
+        ll n, k; cin >> n >> k;
+        ll ans=0, num=n;
+
+        // cpp ref: <<= shifts bits to left by one
+        for(ll i=1;i<=num;i<<=1) {
+            ll curr = min(k, num/i);
+            num -= i*curr;
+            ans += curr;
+        }
+        cout << ans << endl;
+    }
+}

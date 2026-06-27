@@ -72,14 +72,32 @@ void setIO(string s = "") {
     }
 }
 
-// modulo exp
-// ll power(ll base, ll exp, ll mod) {
-//     ll res = 1;
-//     base %= mod;
-//     while (exp > 0) {
-//         if (exp % 2 == 1) res = (__int128)res * base % mod;
-//         base = (__int128)base * base % mod;
-//         exp /= 2;
-//     }
-//     return res;
-// }
+int main() {
+    ll t; cin >> t;
+    while(t--) {
+        ll n, m, r, c; cin >> n >> m >> r >> c;
+        // linear algebra kicked in!
+        // n + (n-1) + (n-2) . . 2 + 1 + 0 = n(n+1)/2
+        // times m too
+        ll x=(n-r+1), y=(m-c+1); 
+        ll mod = 998244352; // fermat -1
+        // ll ans = ((n*(n+1))/2)+((m*(m+1))/2), mod = 998244353;
+        // ll test = ((r*(n+1) - ((r*(r+1))/2))%mod)*((c*(m+1) - ((c*(c+1))/2))%mod);
+
+        // ans = # of submatrices given constraint
+        // nvm; asking for COMBINATIONS; so 2^()? (jesus)
+        // nm - xy
+        ll exp1 = (n%mod)*(m%mod)%(mod), exp2 = (x%mod)*(y%mod)%(mod);
+        ll exp = (exp1-exp2+(mod)) % (mod);
+        
+        // pow is still too big bruh
+        // cout << pow(2, exp) << endl;
+        ll curr=1, ok=2;
+        while(exp>0) { 
+            if(exp%2==1) {curr=(__int128_t)curr*ok%(mod+1);}
+            ok=(__int128_t)ok*ok%(mod+1);
+            exp /= 2;
+        }
+        cout << curr << endl;
+    }
+}

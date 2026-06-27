@@ -83,3 +83,7 @@ void setIO(string s = "") {
 //     }
 //     return res;
 // }
+
+int main() {
+    
+}
