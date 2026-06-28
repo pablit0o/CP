@@ -1,3 +1,16 @@
+/*
+Note:
+For this problem, I do not consider it complete as I had to
+search up how to do large modulo division. While I derived
+the answer mathematically + had working implementation for
+small n&k, i was getting frustrated since I have never done
+modulo division (I assumed it was part of the answer)
+
+since implementation will always be a part of the problem regardless
+of how beautiful your answer is; this is not a completed problem. since
+the contest is div. 2 it shouldnt matter anyway since its unrated for me,
+but Im still dissapointed about this problem.
+*/
 #include <bits/stdc++.h>
 using namespace std;
 typedef vector<int> vi;
